@@ -4,14 +4,15 @@ function Navbar() {
   return (
     <header className=" w-full flex justify-between sm:px-10 px-5 py-5 items-center">
       <nav className="flex w-full screen-max-width ">
-        <img
-          className="cursor-pointer hover:scale-110 duration-300"
-          src={appleImg}
-          alt="apple-logo"
-          width={18}
-          height={18}
-        />
-
+        <a href="/">
+          <img
+            className="cursor-pointer hover:scale-110 duration-300"
+            src={appleImg}
+            alt="apple-logo"
+            width={18}
+            height={18}
+          />
+        </a>
         <div className="  flex flex-1 justify-center max-sm:hidden">
           {navLists.map((i) => (
             <div

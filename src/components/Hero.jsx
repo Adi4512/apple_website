@@ -56,12 +56,7 @@ function Hero() {
         id="cta"
         className="flex flex-col items-center opacity-0 translate-y-20"
       >
-        <a
-          href="https://www.apple.com/in/iphone-15-pro/"
-          target="_blank"
-          rel="noreferrer"
-          className="btn"
-        >
+        <a href="#highlights" className="btn">
           Buy
         </a>
         <p className="font-normal text-xl"> From $199/month or $999</p>
